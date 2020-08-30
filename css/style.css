@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+:root {
+  --light-color: #ecf0f1;
+  --dark-color: #333; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Quicksand, sans-serif; }
+  body header {
+    background: var(--light-color);
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    height: 15vh; }
+  body .container {
+    background: #2c3e50;
+    height: 75vh;
+    text-align: center; }
+    body .container .score-card {
+      color: var(--light-color);
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem; }
+    body .container .btn {
+      background: linear-gradient(to bottom, lightblue, #fff);
+      padding: 1rem;
+      border: 4px solid #f3dddd;
+      border-radius: 50%;
+      margin: 0 0.5rem 0 0.5rem;
+      outline: none;
+      cursor: pointer; }
+    body .container #challenge {
+      position: absolute;
+      top: 43%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 540px;
+      height: 40%;
+      display: none; }
+    body .container #you {
+      position: relative;
+      width: 37.5%;
+      font-size: 50px; }
+    body .container #com {
+      position: relative;
+      width: 37.5%;
+      font-size: 50px; }
+    body .container #YourObject {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 110px;
+      height: 110px;
+      font-size: 50px;
+      padding-top: 20px;
+      border: 3px solid #34495e;
+      border-radius: 50%;
+      color: #34495e;
+      background-color: white;
+      box-sizing: border-box;
+      text-align: center; }
+    body .container #ComObject {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 110px;
+      height: 110px;
+      font-size: 50px;
+      padding-top: 20px;
+      border: 3px solid #34495e;
+      border-radius: 50%;
+      color: #34495e;
+      background-color: white;
+      box-sizing: border-box;
+      text-align: center; }
+    body .container #result {
+      position: relative;
+      width: 25%; }
+    body .container #result p {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 30px;
+      width: 100%;
+      margin: 0;
+      text-align: center; }
+    body .container .who {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 30px; }
+  body footer {
+    background: var(--light-color);
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    height: 10vh; }
+    body footer .fa-heart {
+      color: darkred; }
